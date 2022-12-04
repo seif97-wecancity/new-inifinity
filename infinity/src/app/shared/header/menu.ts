@@ -8,79 +8,25 @@ export const MENU: MenuItem[] = [
     },
     {
       id: 4,
-      label: 'Catalog',
+      label: 'Branch',
       subItems: [
         {
             id: 5,
-            label: 'List View',
+            label: 'Manage branch',
             link: '/catalog/list',
             parentId: 4
-        },
-        {
-            id: 6,
-            label: 'Grid View',
-            link: '/catalog/grid',
-            parentId: 4
-        },
-        {
-          id: 6,
-          label: 'Car Single Page',
-          link: '/catalog/single',
-          parentId: 4
         },
       ]
     },
     {
       id: 7,
-      label: 'Account',
+      label: 'Brand',
       subItems: [
         {
             id: 8,
-            label: 'Personal Info',
+            label: 'Manage brand',
             link: '/account/info',
             parentId: 7
-        },
-        {
-            id: 9,
-            label: 'Password & Security',
-            link: '/account/security',
-            parentId: 7
-        },
-        {
-          id: 10,
-          label: 'My Cars',
-          link: '/account/cars',
-          parentId: 7
-        },
-        {
-          id: 11,
-          label: 'Wishlist',
-          link: '/account/wishlist',
-          parentId: 7
-        },
-        {
-          id: 12,
-          label: 'Reviews',
-          link: '/account/reviews',
-          parentId: 7
-        },
-        {
-          id: 13,
-          label: 'Notifications',
-          link: '/account/notifications',
-          parentId: 7
-        },
-        {
-          id: 14,
-          label: 'Sign In',
-          link: '/auth/signin',
-          parentId: 7
-        },
-        {
-          id: 15,
-          label: 'Sign Up',
-          link: '/auth/signup',
-          parentId: 7
         },
       ]
     },
